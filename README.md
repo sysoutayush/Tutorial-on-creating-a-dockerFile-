@@ -168,10 +168,8 @@ CMD ["python", "your_ml_code.py"]
  
  You can build the Docker image using the following command from the same directory where your Dockerfile is located:
 
-###### Command 
----cmd
+###### Command cmd
 docker build -t my-ml-app
----
 
 
 ```python
