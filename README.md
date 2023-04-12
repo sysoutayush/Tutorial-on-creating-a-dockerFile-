@@ -23,7 +23,7 @@ To read More on containers: [link](https://docker-curriculum.com/#what-are-conta
 
 * The final component is called the container runtime. The runtime invokes kernel features to actually launch containers. Docker is compatible with runtimes that adhere to the OCI specification. This open standard allows for interoperability between different containerization tools.
 
-<img src="src/Blog.-Are-containers-..VM-Image-1-1024x435.png" alt="Docker resources" style="height: 100px; width:100px;"/>
+<img src="src/Blog.-Are-containers-..VM-Image-1-1024x435.png" alt="Docker resources" style="height: 200px; width:600px;"/>
 
 
 # Practical use case 
