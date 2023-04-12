@@ -19,9 +19,9 @@
 To read More on containers: [link](https://docker-curriculum.com/#what-are-containers-)
 
 # How Does Docker Work?
-* Containers utilize operating system kernel features to provide partially virtualized environments. It’s possible to create containers from scratch with commands like chroot. This starts a process with a specified root directory instead of the system root. But using kernel features directly is fiddly, insecure, and error-prone.
-
 * Docker is a complete solution for the production, distribution, and use of containers. Modern Docker releases are comprised of several independent components. First, there’s the Docker CLI, which is what you interact with in your terminal. The CLI sends commands to a Docker daemon. This can run locally or on a remote host. The daemon is responsible for managing containers and the images they’re created from.
+
+* Containers utilize operating system kernel features to provide partially virtualized environments. It’s possible to create containers from scratch with commands like chroot. This starts a process with a specified root directory instead of the system root. But using kernel features directly is fiddly, insecure, and error-prone.
 
 * The final component is called the container runtime. The runtime invokes kernel features to actually launch containers. Docker is compatible with runtimes that adhere to the OCI specification. This open standard allows for interoperability between different containerization tools.
 
@@ -207,7 +207,7 @@ docker build -t my-ml-app
  ![DockerFile Run and build](https://github.com/sysoutayush/Tutorial-on-creating-a-dockerFile-/blob/main/src/Docker_Build_Run2.png)
  
   #### Note: This  not a full tutorial nor a full documentation it's just for learning pourpose and a quick guide on how you can wirte a Dockerfile for your app or a code with some information on Docker and Containers.
-  If you need resources then here are some listed:
+  If you need resources then here are some listing:
 *  Docker Docs [link](https://docs.docker.com/)
 * Tutorial [link](https://www.educative.io/answers/how-do-you-write-a-dockerfile)
 * FAQ's[link](https://www.infoworld.com/article/3310941/why-you-should-use-docker-and-containers.html)
