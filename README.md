@@ -36,7 +36,7 @@ Docker allows you to create lightweight and portable containers that encapsulate
 * Docker enables application portability
 * Docker shines for microservices architecture
 
-<img src="src/virtual-machine-vs-docker-example-what-is-docker-container-edureka-1.png" alt="Docker resource mangement" style="height: 200px; width:600px;"/>
+<img src="src/virtual-machine-vs-docker-example-what-is-docker-container-edureka-1.png" alt="Docker resource mangement" style="height: 350px; width:700px;"/>
 
 ### Let's Take an example  i have a file training.py i need to make a docker file for lets build it 
 
