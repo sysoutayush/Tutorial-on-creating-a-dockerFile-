@@ -110,7 +110,7 @@ target_names = ['will NOT PURCHASE', 'will PURCHASE']
 print('Classification report: \n', classification_report(y_test, y_pred,target_names=target_names))
 ```
 
-#### Now Lets Make a Dockerfile 
+#### Now Let's Make a Dockerfile 
 
 * Step 1:
 Create a file with noextention justname it DOCKERFILE.
