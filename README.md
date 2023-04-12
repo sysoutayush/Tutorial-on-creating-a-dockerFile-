@@ -1,7 +1,8 @@
 # Tutorial on creating your First Dockerfile
 
-Tutorial on creating a dockerFile for a python training file of a sample ML code 
+ This is the Tutorial on docker and it's basics for creating a dockerFile for a python training file of a sample ML code 
 
+ 
 # Docker Basic 
 
 #### Docker
@@ -204,4 +205,6 @@ docker build -t my-ml-app
  ##### Workflow of a DockerFile 
  
  ![DockerFile Run and build](https://github.com/sysoutayush/Tutorial-on-creating-a-dockerFile-/blob/main/src/Docker_Build_Run2.png)
+ 
+  #### Note: This  not a full tutorial nor a full documentation it's just for learing pourpose and a quick guide on how you can wirte a Dockerfile for your app or a code.
 
