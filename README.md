@@ -1,7 +1,7 @@
 # Tutorial-on-creating-a-dockerFile-
 Tutorial on creating a dockerFile for a python training file of a sample ML code 
 
-# Docker Basic (Gist) 
+# Docker Basic 
 
 #### Docker
 
@@ -16,12 +16,25 @@ Tutorial on creating a dockerFile for a python training file of a sample ML code
 
 To read More on containers: [link](https://docker-curriculum.com/#what-are-containers-)
 
+# How Does Docker Work?
+* Containers utilize operating system kernel features to provide partially virtualized environments. It’s possible to create containers from scratch with commands like chroot. This starts a process with a specified root directory instead of the system root. But using kernel features directly is fiddly, insecure, and error-prone.
 
+* Docker is a complete solution for the production, distribution, and use of containers. Modern Docker releases are comprised of several independent components. First, there’s the Docker CLI, which is what you interact with in your terminal. The CLI sends commands to a Docker daemon. This can run locally or on a remote host. The daemon is responsible for managing containers and the images they’re created from.
+
+* The final component is called the container runtime. The runtime invokes kernel features to actually launch containers. Docker is compatible with runtimes that adhere to the OCI specification. This open standard allows for interoperability between different containerization tools.
+
+<img src="src/Blog.-Are-containers-..VM-Image-1-1024x435.png" alt="Docker resources" style="height: 100px; width:100px;"/>
 
 
 # Practical use case 
 
 Docker allows you to create lightweight and portable containers that encapsulate your application and all its dependencies, including libraries, runtime environments, and other dependencies. This means that you can build and package your application along with its dependencies into a Docker container, and then run the container on any host system that has Docker installed, without having to install those dependencies directly on your local computer.
+
+##### Why use Docker:
+* Docker enables more efficient use of system resources
+* Docker enables faster software delivery cycles
+* Docker enables application portability
+* Docker shines for microservices architecture
 
 ### Let's Take an example  i have a file training.py i need to make a docker file for lets build it 
 
