@@ -11,7 +11,7 @@ Tutorial on creating a dockerFile for a python training file of a sample ML code
 #### Containers
 
 * Containers are standalone, executable software packages that include everything needed to run an application, including the code, runtime, system tools, and libraries.
-*A container is like a mini-computer that has its own operating system, libraries, and dependencies. It can run any application that is compatible with its environment, without affecting or being affected by other containers or the host system. Containers are created from images, which are snapshots of the container's state and configuration.
+* A container is like a mini-computer that has its own operating system, libraries, and dependencies. It can run any application that is compatible with its environment, without affecting or being affected by other containers or the host system. Containers are created from images, which are snapshots of the container's state and configuration.
 
 
 To read More on containers: [link](https://docker-curriculum.com/#what-are-containers-)
