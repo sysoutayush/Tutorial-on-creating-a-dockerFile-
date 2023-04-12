@@ -184,4 +184,8 @@ docker build -t my-ml-app
 
 
  Read more on : [link](https://www.educative.io/answers/how-do-you-write-a-dockerfile)
+ 
+ ##### Workflow of a DockerFile 
+ 
+ ![DockerFile Run and build](https://github.com/sysoutayush/Tutorial-on-creating-a-dockerFile-/blob/main/src/Docker_Build_Run2.png)
 
