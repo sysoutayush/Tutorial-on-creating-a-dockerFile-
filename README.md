@@ -207,7 +207,7 @@ docker build -t my-ml-app
  ![DockerFile Run and build](https://github.com/sysoutayush/Tutorial-on-creating-a-dockerFile-/blob/main/src/Docker_Build_Run2.png)
  
   #### Note: This  not a full tutorial nor a full documentation it's just for learning pourpose and a quick guide on how you can wirte a Dockerfile for your app or a code with some information on Docker and Containers.
-  If you need resources then here are some listing:
+  If you need resources then here are some listed:
 *  Docker Docs [link](https://docs.docker.com/)
 * Tutorial [link](https://www.educative.io/answers/how-do-you-write-a-dockerfile)
 * FAQ's[link](https://www.infoworld.com/article/3310941/why-you-should-use-docker-and-containers.html)
